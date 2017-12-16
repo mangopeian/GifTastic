@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>week-6-GifTastic</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+</head>
+<body>
+
+	<div class="container">
+  		<div class="jumbotron" id="jumbo">
+			<h1 id="text">How are you feeling? 🙃😘😝😯😴 </h1>
+				<p id="text">Click a button below to search for gifs or add your own button!</p>
+					<div id="buttonsView"></div>
+						<form class="form-horizontal">
+						  <fieldset>
+						    <div class="form-group">
+						      <div class="col-lg-10">
+						        <input type="text" class="form-control" id="feeling-input" placeholder="Add your feeling">
+						      </div>
+						    </div>
+						    <div class="form-group">
+						      <div class="col-lg-10">
+						        <button type="submit" class="btn btn-primary" id="addFeeling">Add it!</button>
+						      </div>
+						    </div>
+						  </fieldset>
+						</form>
+		</div>
+		<div class="panel panel-default" id="panelBody">
+			<div class="panel-body">
+				<div id="feelingsView">
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+
+</body>
+</html>

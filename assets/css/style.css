@@ -1,0 +1,39 @@
+body {
+	background-image: url("../images/doodles.png");
+}
+.btn {
+	margin-right: 10px;
+}
+
+form, input {
+	margin-right: 10px;
+}
+
+#feeling-input {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+img {
+	margin: 10px;
+
+}
+#gifPanel {
+	border: solid #ff4136 2px;
+}
+#jumbo {
+	background-color: #ADD8C7;
+	border: none;
+}
+#text {
+	color: white;
+}
+#panelBody {
+	background-color: #ADD8C7;
+	border: 0;
+	box-shadow: none;
+	border-bottom: solid #1693A5 5px;
+}
+#rating {
+	margin: 10px;
+	color: white;
+}
