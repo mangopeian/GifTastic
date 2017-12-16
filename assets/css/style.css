@@ -18,17 +18,17 @@ img {
 
 }
 #gifPanel {
-	border: solid #ff4136 2px;
+	border: solid #1693A5 2px;
 }
 #jumbo {
-	background-color: #ADD8C7;
+	background-color: #C4EDE4;
 	border: none;
 }
 #text {
-	color: white;
+	color: #1693A5;
 }
 #panelBody {
-	background-color: #ADD8C7;
+	background-color: #C4EDE4;
 	border: 0;
 	box-shadow: none;
 	border-bottom: solid #1693A5 5px;
